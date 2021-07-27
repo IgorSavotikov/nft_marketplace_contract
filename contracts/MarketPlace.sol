@@ -485,11 +485,5 @@ contract MarketPlace is Ownable, ReentrancyGuard {
         _;
     }
 
-    modifier notClaimed(uint256 _auctionId) {
-        require(
-            (claimedAuctions[_auctionId] == false),
-            "GiveTreeAuction: Already claimed"
-        );
-        _;
-    }
+
 }
