@@ -24,16 +24,16 @@ module.exports = {
     },
     hardhat: {
     },
-    // mumbai: {
-    //   url: "https://rpc-mumbai.maticvigil.com",
-    //   accounts: [process.env.privateKey]
-    // },
-    // matic: {
-    //   // Infura
-    //   // url: `https://polygon-mainnet.infura.io/v3/${process.env.infuraId}`,
-    //   url: "https://rpc-mainnet.maticvigil.com",
-    //   accounts: [process.env.privateKey]
-    // }
+    mumbai: {
+      url: "https://rpc-mumbai.maticvigil.com",
+      accounts: [process.env.privateKey]
+    },
+    matic: {
+      // Infura
+      // url: `https://polygon-mainnet.infura.io/v3/${process.env.infuraId}`,
+      url: "https://rpc-mainnet.maticvigil.com",
+      accounts: [process.env.privateKey]
+    }
   },  
   solidity: "0.8.4"
 };
